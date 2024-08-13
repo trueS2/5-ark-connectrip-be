@@ -31,8 +31,8 @@ public class AuthController {
 
       private final AuthService authService;
       // private final MailService mailService;
+      // branch test
       private final KakaoService kakaoService;
-
 
       @PostMapping(path = "/signup", consumes = MediaType.MULTIPART_FORM_DATA_VALUE,
               produces = MediaType.APPLICATION_JSON_VALUE)
